@@ -59,6 +59,7 @@
             // 
             // pb_Admin
             // 
+            this.pb_Admin.Image = global::Escola_Virtual_anonymous.Properties.Resources.Utilizador;
             this.pb_Admin.Location = new System.Drawing.Point(0, 2);
             this.pb_Admin.Name = "pb_Admin";
             this.pb_Admin.Size = new System.Drawing.Size(77, 72);
