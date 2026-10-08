@@ -31,7 +31,7 @@ namespace Escola_Virtual_anonymous
         public string NumeroTelefone { get; set; }
         public decimal nif { get; set; }
         public string Morada { get; set; }
-        public string Genero { get; set; }
+        public string Genero { get; set }
     }
 
 }
