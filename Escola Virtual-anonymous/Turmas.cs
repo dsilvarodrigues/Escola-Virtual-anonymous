@@ -8,6 +8,6 @@ namespace Escola_Virtual_anonymous
 {
     public class Turmas
     {
-        public Turmas() { }
+        
     }
 }

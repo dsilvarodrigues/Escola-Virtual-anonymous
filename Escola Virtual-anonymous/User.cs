@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Escola_Virtual_anonymous
 {
+    public class User
+    {
+        public List<Admin> ListaAdmins { get; set; } = new List<Admin>();
+        public List<Student> ListaAlunos { get; set; } = new List<Student>();
+        public List<Professor> ListaProfessores { get; set; } = new List<Professor>();
+
+    }
     public class Admin
     {
         public string Numero { get; set; }
@@ -32,5 +39,6 @@ namespace Escola_Virtual_anonymous
         public decimal nif { get; set; }
         public string Morada { get; set; }
         public string Genero { get; set; }
+
     }
 }
