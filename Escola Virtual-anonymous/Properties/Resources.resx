@@ -121,31 +121,37 @@
   <data name="Administrador" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Administrador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Eye_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Eye_closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Saida(Branco)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saida(Branco).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Eye_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Eye_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Female_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Female_User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Eye_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eye_closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Saida(Branco)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Saida(Branco).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Show Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Show Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Saida(Preto)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Saida(Preto).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Show Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Show Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Utilizador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Utilizador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Female_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Female_User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Prefil_Aluno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F_Prefil_Aluno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tres setinhas de definicoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tres setinhas de definicoes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Utilizador" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Utilizador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-student-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-student-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

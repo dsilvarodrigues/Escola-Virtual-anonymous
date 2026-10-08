@@ -16,5 +16,10 @@ namespace Escola_Virtual_anonymous
         {
             InitializeComponent();
         }
+
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
