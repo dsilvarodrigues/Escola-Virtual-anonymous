@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Escola_Virtual_anonymous
 {
-    public class Turmas
+    public class Classes
     {
-        
+        public string ClassName { get; set; }
+        public string School_Year  { get; set; }
+
+        public List<Student> Students { get; set; } = new List<Student>();
+        public List<string> Subjects { get; set; } = new List<string>();
     }
 }

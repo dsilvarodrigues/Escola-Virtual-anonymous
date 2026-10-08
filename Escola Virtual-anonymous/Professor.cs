@@ -12,9 +12,6 @@ namespace Escola_Virtual_anonymous
 {
     public partial class Professor : Form
     {
-        public Professor()
-        {
-            InitializeComponent();
-        }
+        
     }
 }
