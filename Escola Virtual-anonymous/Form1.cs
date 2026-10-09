@@ -16,5 +16,19 @@ namespace Escola_Virtual_anonymous
         {
             InitializeComponent();
         }
+
+        private void pb_Eye_Click(object sender, EventArgs e)
+        {
+            txtPass.UseSystemPasswordChar = !txtPass.UseSystemPasswordChar;
+
+            if (txtPass.UseSystemPasswordChar)
+            {
+                pb_Eye.Image = Properties.Resources.Eye_open;
+            }
+            else
+            {
+                pb_Eye.Image = Properties.Resources.Eye_closed;
+            }
+        }
     }
 }

@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Escola_Virtual_anonymous
 {
-    public partial class Adminisrador : Form
+    public partial class Administrador : Form
     {
-        public Adminisrador()
+        public Administrador()
         {
             InitializeComponent();
+        }
+
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            Form1 login = new Form1();
+            login.Show();
+            this.Hide();
         }
     }
 }

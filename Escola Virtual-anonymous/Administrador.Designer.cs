@@ -1,6 +1,6 @@
 ﻿namespace Escola_Virtual_anonymous
 {
-    partial class Adminisrador
+    partial class Administrador
     {
         /// <summary>
         /// Required designer variable.
@@ -47,6 +47,7 @@
             this.btn_Logout.TabIndex = 11;
             this.btn_Logout.Text = "Log Out";
             this.btn_Logout.UseVisualStyleBackColor = true;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // lblAdminName
             // 
@@ -107,7 +108,7 @@
             this.tp_Alunos.Text = "Alunos";
             this.tp_Alunos.UseVisualStyleBackColor = true;
             // 
-            // Adminisrador
+            // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,7 +117,7 @@
             this.Controls.Add(this.lblAdminName);
             this.Controls.Add(this.pb_Admin);
             this.Controls.Add(this.tabControl1);
-            this.Name = "Adminisrador";
+            this.Name = "Administrador";
             this.Text = "Adminisrador";
             ((System.ComponentModel.ISupportInitialize)(this.pb_Admin)).EndInit();
             this.tabControl1.ResumeLayout(false);
