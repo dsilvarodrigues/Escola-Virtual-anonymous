@@ -30,5 +30,10 @@ namespace Escola_Virtual_anonymous
                 pb_Eye.Image = Properties.Resources.Eye_closed;
             }
         }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
