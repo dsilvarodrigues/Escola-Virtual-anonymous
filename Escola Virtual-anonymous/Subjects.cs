@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Escola_Virtual_anonymous
 {
-    internal class Anos
+    internal class Subjects
     {
     }
 }
