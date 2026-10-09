@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Escola_Virtual_anonymous
 {
-    public partial class Adminisrador : Form
+    public partial class Administrador : Form
     {
-        public Adminisrador()
+        public Administrador()
         {
             InitializeComponent();
         }

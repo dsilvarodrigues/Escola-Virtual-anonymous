@@ -33,8 +33,8 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUser = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.pb_Eye = new System.Windows.Forms.PictureBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtUser = new System.Windows.Forms.TextBox();
@@ -42,7 +42,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Eye)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -96,8 +96,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.txtPassword);
+            this.panel2.Controls.Add(this.pb_Eye);
+            this.panel2.Controls.Add(this.txtPass);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Location = new System.Drawing.Point(5, 236);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
@@ -105,26 +105,28 @@
             this.panel2.Size = new System.Drawing.Size(368, 42);
             this.panel2.TabIndex = 32;
             // 
-            // pictureBox4
+            // pb_Eye
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(322, 6);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(31, 31);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 2;
-            this.pictureBox4.TabStop = false;
+            this.pb_Eye.Image = global::Escola_Virtual_anonymous.Properties.Resources.Eye_open;
+            this.pb_Eye.Location = new System.Drawing.Point(322, 6);
+            this.pb_Eye.Margin = new System.Windows.Forms.Padding(2);
+            this.pb_Eye.Name = "pb_Eye";
+            this.pb_Eye.Size = new System.Drawing.Size(31, 31);
+            this.pb_Eye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Eye.TabIndex = 2;
+            this.pb_Eye.TabStop = false;
+            this.pb_Eye.Click += new System.EventHandler(this.pb_Eye_Click);
             // 
-            // txtPassword
+            // txtPass
             // 
-            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(49, 8);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(269, 23);
-            this.txtPassword.TabIndex = 1;
-            this.txtPassword.UseSystemPasswordChar = true;
+            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPass.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Location = new System.Drawing.Point(49, 8);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(269, 23);
+            this.txtPass.TabIndex = 1;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // pictureBox3
             // 
@@ -203,7 +205,7 @@
             this.Text = "Form1";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Eye)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -221,8 +223,8 @@
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.PictureBox pb_Eye;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtUser;

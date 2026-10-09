@@ -1,6 +1,6 @@
 ﻿namespace Escola_Virtual_anonymous
 {
-    partial class Adminisrador
+    partial class Administrador
     {
         /// <summary>
         /// Required designer variable.
