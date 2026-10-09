@@ -58,6 +58,7 @@
     <Compile Include="Aluno.Designer.cs">
       <DependentUpon>Aluno.cs</DependentUpon>
     </Compile>
+    <Compile Include="InitialData.cs" />
     <Compile Include="SchoolYear.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

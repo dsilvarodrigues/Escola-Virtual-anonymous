@@ -12,6 +12,6 @@ namespace Escola_Virtual_anonymous
         public string School_Year  { get; set; }
 
         public List<Student> Students { get; set; } = new List<Student>();
-        public List<string> Subjects { get; set; } = new List<string>();
+        public List<Subjects> Subjects { get; set; } = new List<Subjects>();
     }
 }

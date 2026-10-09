@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Escola_Virtual_anonymous
 {
-    public class Subjects
+    public class InitialData
     {
-        public string Name { get; set; }
+
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Escola_Virtual_anonymous
 {
-    internal class SchoolYear
+    public class SchoolYear
     {
         public string Year { get; set; }
 
